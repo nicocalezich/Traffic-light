@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://npmcdn.com/vue/dist/vue.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Traffic light</title>
+</head>
+<body>
+    <div id="app">
+        <div class=title><h2>This is a traffic light.</h2></div>
+        <div @click="iniciar" class="start-btn"><button id='btn'>{{btntext}}</button></div>
+            <div class="traffic-light">
+                <div class="light" id="red">
+                    
+                </div>
+                <div class="light" id="yellow">
+                   
+                </div>
+                <div class="light" id="green">
+                    
+                </div>
+            </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
