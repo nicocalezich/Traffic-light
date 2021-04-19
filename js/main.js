@@ -14,7 +14,7 @@ new Vue({
     methods: {
         iniciar(){
             setTimeout(this.redToYellow, this.redNGrenTime);
-            this.btntext = "Iniciado"
+            this.btntext = "Initiated"
             btn.disabled = true
           },
           
