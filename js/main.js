@@ -18,13 +18,13 @@ new Vue({
             btn.disabled = true
           },
           
-          redToYellow(){
-            red.style.backgroundColor = 'white'
+          redToYellow(){ 
             yellow.style.backgroundColor = 'yellow'
             setTimeout(this.yellowToGreen, this.yellowTime);
           },
           
           yellowToGreen(){
+            red.style.backgroundColor = 'white'
             yellow.style.backgroundColor = 'white'
             green.style.backgroundColor = 'green'
             setTimeout(this.greenToYellow, this.redNGrenTime);
