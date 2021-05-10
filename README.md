@@ -1,6 +1,6 @@
 # Traffic-light
 
-Simple traffic light. Click on 'turn on' to start.
+Simple traffic light built with VUE js. Click on 'turn on' to start.
 
 You can change lights timer, you must enter secs x 1000 like -> 1 seg = 1000
 
